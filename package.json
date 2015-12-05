@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-register"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "unexpected": "^10.3.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015-node5": "^1.1.1",
+    "babel-preset-node5": "^10.0.0"
   }
 }
