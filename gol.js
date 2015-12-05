@@ -3,7 +3,7 @@ module.exports = {
 		return false;
 	},
 
-	neighborCount(x, y) {
-		return 1;
+	neighborCount(neighbors) {
+		return Object.keys(neighbors).length;
 	},
 };
