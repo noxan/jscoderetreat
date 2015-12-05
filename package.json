@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "game-of-life-es6": "^0.2.4"
+    "unexpected": "^10.3.1"
   }
 }
